@@ -4097,6 +4097,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4316652776831010, guid: 9b3d693a654a56c43b2249ca7efee293, type: 3}
   m_PrefabInstance: {fileID: 489298968}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &491829688 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1284826244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &496232894
 GameObject:
   m_ObjectHideFlags: 0
@@ -11170,6 +11175,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114103969153859672, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15923,10 +15936,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea68d9729ffe7184fa9ffc036aabcb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 491829688}
   forceArrow: 100
   destroyTime: 20
   cooldown: 1
   timeSnipe: 0.61
+  speedChangeFow: -10
+  startFow: 60
+  endFow: 50
   prefab: {fileID: 3277559928401192145, guid: 332c7c172a506434c880c24b5870e9a9, type: 3}
   startPosition: {fileID: 3158709040261705510}
 --- !u!1001 &1834697878
