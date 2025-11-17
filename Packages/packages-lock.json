@@ -7,6 +7,15 @@
       "dependencies": {},
       "hash": "73a63b7f672b88f7e9992f6917eb458a8cbb6fa9"
     },
+    "com.neoxider.tools": {
+      "version": "https://github.com/NeoXider/NeoxiderTools.git?path=Assets/Neoxider",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "c8f0360a7e1139e6e1e310ac794e4e2b4a87230f"
+    },
     "com.unity.collab-proxy": {
       "version": "2.10.0",
       "depth": 0,

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.neoxider.tools": "https://github.com/NeoXider/NeoxiderTools.git?path=Assets/Neoxider",
     "com.unity.collab-proxy": "2.10.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.7",
