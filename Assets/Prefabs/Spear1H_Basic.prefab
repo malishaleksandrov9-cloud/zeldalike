@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3277559928401192145}
   - component: {fileID: 7618201093486449994}
   - component: {fileID: 1434823428009735636}
+  - component: {fileID: 2239224666872968825}
   m_Layer: 0
   m_Name: Spear1H_Basic
   m_TagString: Untagged
@@ -128,7 +129,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &1434823428009735636
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -151,6 +152,55 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -679773820921150111, guid: df3f07283842c864abb844da441c0bf8, type: 3}
+--- !u!114 &2239224666872968825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6803298899908196285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3d9bd4c102fba4f91b334cdbb92dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 23
+  triggerDuration: 0.2
+  autoManageColliders: 0
+  collider2D: {fileID: 0}
+  collider3D: {fileID: 0}
+  use2D: 0
+  use3D: 1
+  useTrigger: 0
+  useCollision: 1
+  hittableLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  applyForceOnHit: 1
+  forceMagnitude: 20
+  forceDuration: 0.3
+  forceMode3D: 1
+  forceMode2D: 1
+  scaleForceByMass: 1
+  useAdvancedForceApplier: 1
+  attackEffectPrefab: {fileID: 193062, guid: 01949c12a89de284792dc4b7b7128404, type: 3}
+  ignoreObjects: []
+  destroySelfOnHit: 1
+  destroyTargetOnHit: 0
+  _showGizmo: 1
+  _gizmoColor: {r: 1, g: 0, b: 0, a: 0.2}
+  OnAttackTriggerEnter2D:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackTriggerEnter3D:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeactivateTrigger:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7086790996256983305
 GameObject:
   m_ObjectHideFlags: 0
